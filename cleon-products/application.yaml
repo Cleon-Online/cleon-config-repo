@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+  profiles:
+    active: dev
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+  application:
+    name: cleon-products
