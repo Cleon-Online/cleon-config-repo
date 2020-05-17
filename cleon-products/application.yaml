@@ -4,11 +4,8 @@ spring:
       enabled: true
   jpa:
     show-sql: true
-#  profiles:
-#    active: qa
   cache:
     jcache:
       config: classpath:ehcache.xml
-  application:
-    name: cleon-products
+
 
