@@ -1,1 +1,3 @@
-foo:bar
+spring:
+  profiles:
+    active: qa
